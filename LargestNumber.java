@@ -8,6 +8,7 @@ public class LargestNumber{
 		Scanner s= new Scanner(System.in);
 		long first_no=s.nextLong();
 		long second_no=s.nextLong();
+		s.close();
 
 		if(first_no>second_no)
 		{

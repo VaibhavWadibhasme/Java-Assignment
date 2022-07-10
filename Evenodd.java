@@ -7,6 +7,7 @@ public class Evenodd{
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter any Number: ");
 		int a=s.nextInt();
+		s.close();
 		
 		if (a%2==0)
 		{

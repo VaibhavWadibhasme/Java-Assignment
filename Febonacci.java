@@ -7,6 +7,7 @@ public class Febonacci{
 		System.out.println("Enter the place till you have to print febonacci series: ");
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
+		s.close();
 		int first_no=0;
 		int second_no=1;
 		

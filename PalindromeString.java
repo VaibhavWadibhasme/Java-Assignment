@@ -7,6 +7,7 @@ public class PalindromeString{
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter Word to check for Paliandrome: ");
 		String str=s.nextLine();
+		s.close();
 		String reverse="";
 		int strlength=str.length();
 
