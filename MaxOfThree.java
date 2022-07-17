@@ -8,6 +8,7 @@ public class MaxOfThree{
 		int a=s.nextInt();
 		int b=s.nextInt();
 		int c=s.nextInt();
+		s.close();
 		max(a,b,c);
 		System.out.println();
 		min(a,b,c);
